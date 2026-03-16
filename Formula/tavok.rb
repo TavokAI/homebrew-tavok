@@ -1,29 +1,29 @@
 class Tavok < Formula
   desc "Bootstrap CLI for self-hosting Tavok"
   homepage "https://tavok.dev"
-  version "0.2.5"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/TavokAI/Tavok/releases/download/v0.2.5/tavok-darwin-arm64.tar.gz"
-      sha256 "073b691875922afd68e3c8b7d47e45d54be47edcc0fd1642e6939a4e52cb839c"
+      url "https://github.com/TavokAI/Tavok/releases/download/v0.3.0/tavok-darwin-arm64.tar.gz"
+      sha256 "d5084e9054dfde2d49250fe00210dc590c5f05e7103e2dbcbe0ee4d21820fa67"
     end
 
     on_intel do
-      url "https://github.com/TavokAI/Tavok/releases/download/v0.2.5/tavok-darwin-amd64.tar.gz"
-      sha256 "a1f199eb0669b219dafe3d11e92bc9976d2ada62bd576dbc52cfa03fd8f4474d"
+      url "https://github.com/TavokAI/Tavok/releases/download/v0.3.0/tavok-darwin-amd64.tar.gz"
+      sha256 "04ad61b6d22d1951735b22bd862940ede788e7cb0d2ac66c251609fb215c7254"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TavokAI/Tavok/releases/download/v0.2.5/tavok-linux-arm64.tar.gz"
-      sha256 "c2078741f31c6bb1e515ef3fae3ca691f1534fbef44da33694f632e4c25acdc5"
+      url "https://github.com/TavokAI/Tavok/releases/download/v0.3.0/tavok-linux-arm64.tar.gz"
+      sha256 "c9209f0b2939524288bb5af4fbc80ec319d78f2fc5699a887575de7163ff4b58"
     end
 
     on_intel do
-      url "https://github.com/TavokAI/Tavok/releases/download/v0.2.5/tavok-linux-amd64.tar.gz"
-      sha256 "908f8920b25f38db3449ca7401b80f33884b0057818e52f30696a36a2158d6d8"
+      url "https://github.com/TavokAI/Tavok/releases/download/v0.3.0/tavok-linux-amd64.tar.gz"
+      sha256 "08ec8a03c6344425a971e41a72083371872a505d74683f679bb2213e6c870e49"
     end
   end
 
